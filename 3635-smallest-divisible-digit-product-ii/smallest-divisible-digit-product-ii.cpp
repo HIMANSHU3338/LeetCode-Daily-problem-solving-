@@ -7,7 +7,7 @@ public:
     };
 
     int maxE2, maxE3, maxE5, maxE7;
-    vector<vector<vector<vector<int>>>> dp; // dp[e2][e3][e5][e7] = min digits
+    vector<vector<vector<vector<int>>>> dp; 
 
     void buildDP(int E2, int E3, int E5, int E7) {
         maxE2 = E2; maxE3 = E3; maxE5 = E5; maxE7 = E7;
